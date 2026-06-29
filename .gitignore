@@ -30,7 +30,7 @@ target/
 quarkus.log
 
 # Maven
-.mvn/
+#.mvn/
 !mvnw
 !mvnw.cmd
 
