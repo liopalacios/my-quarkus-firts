@@ -20,7 +20,7 @@ jobs:
 
       - name: Build Quarkus app
         working-directory: token
-        run: ./mvnw clean package -DskipTests
+        run: mvn clean package -DskipTests
 
       - name: Build image
         working-directory: token
